@@ -1,0 +1,3 @@
+gcc -c libwho.c
+ar -r libwho.a libwho.o
+gcc main.c -o main -lwho -L.
